@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bhagyashree Project-Starbucks clone</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--EXTERNAL CSS LINK-->
+        <link rel="stylesheet" href="style.css">
+        <!-- bootstrap CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Header Section-->
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img height="40px" width="40px" src="assets/images/logo.png" /></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="aboutus.html"><b>About Us</b></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" data-toggle="modal" data-target="#signin"><b>Sign In</b></a>
+                              </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit"><b>Search</b></button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            
+            <!--Content-->
+            <div class="contaier-fluid">
+            <div class="row">
+                <h2>About Us</h2>
+                <br>
+                <p>
+                    It happens millions of times each week – a customer receives a drink from a Starbucks barista – but each interaction is unique.<br>
+                    It’s just a moment in time – just one hand reaching over the counter to present a cup to another outstretched hand.
+                    <br><br>
+                    But it’s a connection....
+                    <br><br>
+                    We make sure everything we do honors that connection – from our commitment to the highest quality coffee in the world, to the way we engage with our customers and communities to do business responsibly.
+                    <br><br>
+                    From our beginnings as a single store over forty years ago, in every place that we’ve been, and every place that we touch, we've tried to make it a little better than we found it.</p>
+                
+            </div>
+        </div>  
+        <br>
+              <div class="row">
+                <button type="button" class="btn btn-dark border border-white rounded px-5" style="font-size: 18px;background-color: #2d8e59;" data-toggle="modal" data-target="#signin">Contact Us</button>
+            </div>
+            <!-- signin Modal -->
+            <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">We are at :</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <!--FOOTER SECTION-->
+  <footer>
+    <div class="container card links-footer">
+      <div class="row">
+        <div class="col-8" style="padding-top: 10px;">
+          <span class="footer-links">ABOUT STARBUCKS</span>
+          <span class="footer-links">GIFT CARD</span>
+          <span class="footer-links">FEEDBACK</span>
+          <span class="footer-links">CONTACT US</span>
+        </div>
+        <div class="col-4">
+          <img height="37px" width="96px" src="assets/images/appstoreAndroid.png" style="padding-top: 10px;" />
+          <img height="37px" width="96px" src="assets/images/appstoreiOS.png" style="padding-top: 10px;" />
+        </div>
+      </div>
+      <hr class="horizontal-line">
+      <div class="row">
+        <div class="col-6">
+          <img height="30px" width="40px" src="assets/images/facebook.png" style="padding-left: 10px;">
+          <img height="30px" width="40px" src="assets/images/instagram.png" style="padding-left: 30px;">
+          <img height="30px" width="40px" src="assets/images/youtube.png" style="padding-left: 30px;">
+        </div>
+        <div class="col-6">
+          <small style="float: right;">&copy; Copyright 2023 Starbucks. All Rights Reserved.</small>
+        </div>
+      </div>
+      <br>
+      <div class="text-center">
+        <small>
+          Food shown are for illustration purpose only. Actual product may differ from the images shown in this website.
+          Our menu prices are now inclusive of GST.* The Starbucks name, logos, and related marks are trademarks of Starbucks, Inc.
+          All chicken products contain Monosodium Glutamate. Not recommended for infants below 12 months.
+        </small>
+      </div>
+    </div>
+  </footer>
+  <br>
+  <!--EXTERNAL JS LINK-->
+<script src="kfc.js"></script>
+        <!--BS JS LINK-->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>
